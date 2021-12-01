@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardContainer{
+    padding: 50px;
+    width: 400px;
+    height: 500px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    background: linear-gradient(0deg, rgba(50,64,120,1) 0%, rgba(136,78,139,1) 100%);
+    box-shadow: 0px 0px 50px 2px black;
+}
+
+.selection{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 32px;
+    position: relative;
+}
+
+.options{
+    padding: 5px 0;
+    color: #c2685b;
+
+}
+
+.active{
+    color: #FE8572;
+    border-bottom: 2px solid #FE8572;
+}
+
+.inputs{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.inputs input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+    background: transparent;
+    border: none;
+    border-bottom: 3px solid #FE8572;
+    outline: none;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FE8572;
+}
+
+.inputs input::placeholder{
+    font-weight: bold;
+    font-size: 16px;
+    color: #FE8572;
+}
+
+.check{
+    display: flex;
+    align-items: center;
+}
+
+.check input{
+    /* appearance: none; */
+    background-color: #FE8572;
+    margin: 0;
+    width: 15px;
+    height: 15px;
+    border-radius: 2px;
+}
+
+.check label{
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #FE8572;
+    margin-left: 10px;
+}
+
+.submitButton{
+    padding-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.submitButton input{
+    width: 75%;
+    padding: 20px 0px;
+    border-radius: 50px;
+    background-color: #FE8572;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.forgot{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.forgot a{
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FE8572;
+}
+
+
+
